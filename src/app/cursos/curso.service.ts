@@ -15,7 +15,7 @@ export class ServiçosService {
   //grud
   //vetor 
   
-  private vetorCursos:curso[] = [
+  public vetorCursos:curso[] = [
     new curso("Angular" ,800, "Desenvolvimento"),
     new curso("Javascript" ,600, "Desenvolvimento"),
     new curso("HTML e CSS" ,400, "Desenvolvimento"),

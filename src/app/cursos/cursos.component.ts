@@ -20,8 +20,16 @@ export class CursosComponent implements OnInit {
 
   //inicicializador
   ngOnInit(): void {
+
+    // instaciando um obejoto curso, assim ao escrever as informações nas inputs, vai gravar no 
+    //objeto e gravar separamente em nome, valor e area.
+    
+    this.curso = new curso("", 0, "");
     this.vetorCursos = this.servico.listar();
     
+  }
+  cadastrar(){
+    this.servico.cadastrar(this.curso);
   }
 
 }
