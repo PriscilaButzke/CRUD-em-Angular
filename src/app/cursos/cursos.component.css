@@ -20,6 +20,7 @@ form{
     font-weight: 700;
     padding: 2px;
     width: 100px;
+    height: 23px;
 }
 .button:hover{
     background-color: #5B7DB1;
@@ -28,6 +29,7 @@ input{
     border-radius: 5px;
     margin: 5px;
     border: 1px solid;
+    height: 23px;
     
 }
 table{
@@ -44,7 +46,18 @@ table{
     font-size: large;
 }
 td{
-    border-bottom: 1px solid;
     padding: 0;
     margin: 0;
+}
+.btn{
+    margin: 2px;
+    width: 70px;
+    height: 23px;
+    font-weight: 600;
+    background-color: #C4DDFF ;
+    border-radius: 9px;
+}
+.btn:hover{
+    background-color: #5B7DB1;
+
 }
